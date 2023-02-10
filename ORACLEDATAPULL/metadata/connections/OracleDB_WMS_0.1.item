@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:DatabaseConnection AdditionalParams="" DatabaseType="Oracle with SID" DatasourceName="" DbmsId="oracle_id" DriverClass="oracle.jdbc.OracleDriver" FileFieldName="" NullChar="" Password="enc:system.encryption.key.v1:YOxK5eF8ttkuV4NnRg8987fOVRq4Ix/Es5lFH1QGqGRu3+9p" Port="1521" ProductId="ORACLE" SID="WMSPROD" SQLMode="false" ServerName="mywmsdb.vinda.com" SqlSynthax="SQL_92" StandardSQL="true" StringQuote="" URL="jdbc:oracle:thin:@mywmsdb.vinda.com:1521:WMSPROD" UiSchema="" Username="appsview" dataPackage="_QiacwKggEe2bksM7Q96LBQ _QiacwaggEe2bksM7Q96LBQ _QiacwqggEe2bksM7Q96LBQ _Qiacw6ggEe2bksM7Q96LBQ _QiacxKggEe2bksM7Q96LBQ _QiacxaggEe2bksM7Q96LBQ _QiacxqggEe2bksM7Q96LBQ _Qiacx6ggEe2bksM7Q96LBQ _QiacyKggEe2bksM7Q96LBQ _QiacyaggEe2bksM7Q96LBQ _QiacyqggEe2bksM7Q96LBQ _Qiacy6ggEe2bksM7Q96LBQ _QiaczKggEe2bksM7Q96LBQ _QiaczaggEe2bksM7Q96LBQ _QiaczqggEe2bksM7Q96LBQ _Qiacz6ggEe2bksM7Q96LBQ _Qiac0KggEe2bksM7Q96LBQ _Qiac0aggEe2bksM7Q96LBQ _Qiac0qggEe2bksM7Q96LBQ _Qiac06ggEe2bksM7Q96LBQ _Qiac1KggEe2bksM7Q96LBQ _Qiac1aggEe2bksM7Q96LBQ _QijmsKggEe2bksM7Q96LBQ _QijmsaggEe2bksM7Q96LBQ _QijmsqggEe2bksM7Q96LBQ _Qijms6ggEe2bksM7Q96LBQ _QijmtKggEe2bksM7Q96LBQ _QijmtaggEe2bksM7Q96LBQ _QijmtqggEe2bksM7Q96LBQ _Qijmt6ggEe2bksM7Q96LBQ _QijmuKggEe2bksM7Q96LBQ _QijmuaggEe2bksM7Q96LBQ _QijmuqggEe2bksM7Q96LBQ _Qijmu6ggEe2bksM7Q96LBQ _QijmvKggEe2bksM7Q96LBQ _QijmvaggEe2bksM7Q96LBQ _QijmvqggEe2bksM7Q96LBQ _Qijmv6ggEe2bksM7Q96LBQ _QijmwKggEe2bksM7Q96LBQ _QijmwaggEe2bksM7Q96LBQ _QijmwqggEe2bksM7Q96LBQ _Qijmw6ggEe2bksM7Q96LBQ _QijmxKggEe2bksM7Q96LBQ _QijmxaggEe2bksM7Q96LBQ _QijmxqggEe2bksM7Q96LBQ _Qijmx6ggEe2bksM7Q96LBQ _QijmyKggEe2bksM7Q96LBQ _QijmyaggEe2bksM7Q96LBQ _QijmyqggEe2bksM7Q96LBQ _Qijmy6ggEe2bksM7Q96LBQ _QijmzKggEe2bksM7Q96LBQ _QijmzaggEe2bksM7Q96LBQ _QijmzqggEe2bksM7Q96LBQ _Qijmz6ggEe2bksM7Q96LBQ _Qijm0KggEe2bksM7Q96LBQ _Qijm0aggEe2bksM7Q96LBQ _Qijm0qggEe2bksM7Q96LBQ _Qijm06ggEe2bksM7Q96LBQ _Qijm1KggEe2bksM7Q96LBQ _Qijm1aggEe2bksM7Q96LBQ _Qijm1qggEe2bksM7Q96LBQ _Qijm16ggEe2bksM7Q96LBQ _Qijm2KggEe2bksM7Q96LBQ _Qijm2aggEe2bksM7Q96LBQ _Qijm2qggEe2bksM7Q96LBQ _Qijm26ggEe2bksM7Q96LBQ _Qijm3KggEe2bksM7Q96LBQ _Qijm3aggEe2bksM7Q96LBQ _Qijm3qggEe2bksM7Q96LBQ _Qijm36ggEe2bksM7Q96LBQ _Qijm4KggEe2bksM7Q96LBQ _Qijm4aggEe2bksM7Q96LBQ _Qijm4qggEe2bksM7Q96LBQ _Qijm46ggEe2bksM7Q96LBQ _Qijm5KggEe2bksM7Q96LBQ _Qijm5aggEe2bksM7Q96LBQ _Qijm5qggEe2bksM7Q96LBQ _Qijm56ggEe2bksM7Q96LBQ _Qijm6KggEe2bksM7Q96LBQ _Qijm6aggEe2bksM7Q96LBQ _Qijm6qggEe2bksM7Q96LBQ _Qijm66ggEe2bksM7Q96LBQ _Qijm7KggEe2bksM7Q96LBQ _Qijm7aggEe2bksM7Q96LBQ _Qijm7qggEe2bksM7Q96LBQ _Qijm76ggEe2bksM7Q96LBQ _Qijm8KggEe2bksM7Q96LBQ _Qijm8aggEe2bksM7Q96LBQ _Qijm8qggEe2bksM7Q96LBQ _Qijm86ggEe2bksM7Q96LBQ _Qijm9KggEe2bksM7Q96LBQ _Qijm9aggEe2bksM7Q96LBQ _Qijm9qggEe2bksM7Q96LBQ _Qijm96ggEe2bksM7Q96LBQ _Qijm-KggEe2bksM7Q96LBQ _Qijm-aggEe2bksM7Q96LBQ _Qijm-qggEe2bksM7Q96LBQ _Qijm-6ggEe2bksM7Q96LBQ _Qijm_KggEe2bksM7Q96LBQ _Qijm_aggEe2bksM7Q96LBQ _Qijm_qggEe2bksM7Q96LBQ _Qijm_6ggEe2bksM7Q96LBQ _QijnAKggEe2bksM7Q96LBQ _QijnAaggEe2bksM7Q96LBQ _QijnAqggEe2bksM7Q96LBQ _QijnA6ggEe2bksM7Q96LBQ _QijnBKggEe2bksM7Q96LBQ _QijnBaggEe2bksM7Q96LBQ _QijnBqggEe2bksM7Q96LBQ _QijnB6ggEe2bksM7Q96LBQ _QijnCKggEe2bksM7Q96LBQ _QijnCaggEe2bksM7Q96LBQ _QijnCqggEe2bksM7Q96LBQ _QijnC6ggEe2bksM7Q96LBQ _QijnDKggEe2bksM7Q96LBQ _QijnDaggEe2bksM7Q96LBQ _QijnDqggEe2bksM7Q96LBQ _QijnD6ggEe2bksM7Q96LBQ _QijnEKggEe2bksM7Q96LBQ _QijnEaggEe2bksM7Q96LBQ _QijnEqggEe2bksM7Q96LBQ _QijnE6ggEe2bksM7Q96LBQ _QijnFKggEe2bksM7Q96LBQ _QijnFaggEe2bksM7Q96LBQ _QijnFqggEe2bksM7Q96LBQ _QijnF6ggEe2bksM7Q96LBQ _QijnGKggEe2bksM7Q96LBQ _QijnGaggEe2bksM7Q96LBQ _QijnGqggEe2bksM7Q96LBQ _QijnG6ggEe2bksM7Q96LBQ _QijnHKggEe2bksM7Q96LBQ _QijnHaggEe2bksM7Q96LBQ _QijnHqggEe2bksM7Q96LBQ _QijnH6ggEe2bksM7Q96LBQ _QijnIKggEe2bksM7Q96LBQ _QijnIaggEe2bksM7Q96LBQ _QijnIqggEe2bksM7Q96LBQ _QijnI6ggEe2bksM7Q96LBQ _QijnJKggEe2bksM7Q96LBQ _QijnJaggEe2bksM7Q96LBQ _QijnJqggEe2bksM7Q96LBQ _QijnJ6ggEe2bksM7Q96LBQ _QijnKKggEe2bksM7Q96LBQ _QijnKaggEe2bksM7Q96LBQ _QijnKqggEe2bksM7Q96LBQ _QijnK6ggEe2bksM7Q96LBQ _QijnLKggEe2bksM7Q96LBQ _QijnLaggEe2bksM7Q96LBQ _QijnLqggEe2bksM7Q96LBQ _QijnL6ggEe2bksM7Q96LBQ _QijnMKggEe2bksM7Q96LBQ _QijnMaggEe2bksM7Q96LBQ _QijnMqggEe2bksM7Q96LBQ _QijnM6ggEe2bksM7Q96LBQ _QijnNKggEe2bksM7Q96LBQ _QijnNaggEe2bksM7Q96LBQ _QijnNqggEe2bksM7Q96LBQ _QijnN6ggEe2bksM7Q96LBQ _QijnOKggEe2bksM7Q96LBQ _QijnOaggEe2bksM7Q96LBQ _QijnOqggEe2bksM7Q96LBQ _QijnO6ggEe2bksM7Q96LBQ _QijnPKggEe2bksM7Q96LBQ _QijnPaggEe2bksM7Q96LBQ _QijnPqggEe2bksM7Q96LBQ _QijnP6ggEe2bksM7Q96LBQ _QijnQKggEe2bksM7Q96LBQ _QijnQaggEe2bksM7Q96LBQ _QijnQqggEe2bksM7Q96LBQ _QijnQ6ggEe2bksM7Q96LBQ _QijnRKggEe2bksM7Q96LBQ _QijnRaggEe2bksM7Q96LBQ _QijnRqggEe2bksM7Q96LBQ _QijnR6ggEe2bksM7Q96LBQ _QijnSKggEe2bksM7Q96LBQ _QijnSaggEe2bksM7Q96LBQ _QijnSqggEe2bksM7Q96LBQ _QijnS6ggEe2bksM7Q96LBQ _QijnTKggEe2bksM7Q96LBQ _QijnTaggEe2bksM7Q96LBQ _QijnTqggEe2bksM7Q96LBQ _QijnT6ggEe2bksM7Q96LBQ _QijnUKggEe2bksM7Q96LBQ _QijnUaggEe2bksM7Q96LBQ _QijnUqggEe2bksM7Q96LBQ _QijnU6ggEe2bksM7Q96LBQ _QijnVKggEe2bksM7Q96LBQ _QijnVaggEe2bksM7Q96LBQ _QijnVqggEe2bksM7Q96LBQ _QijnV6ggEe2bksM7Q96LBQ _QijnWKggEe2bksM7Q96LBQ _QijnWaggEe2bksM7Q96LBQ _QijnWqggEe2bksM7Q96LBQ _QijnW6ggEe2bksM7Q96LBQ _QijnXKggEe2bksM7Q96LBQ _QijnXaggEe2bksM7Q96LBQ _QijnXqggEe2bksM7Q96LBQ _QijnX6ggEe2bksM7Q96LBQ _QijnYKggEe2bksM7Q96LBQ _QijnYaggEe2bksM7Q96LBQ _QijnYqggEe2bksM7Q96LBQ _QijnY6ggEe2bksM7Q96LBQ _QijnZKggEe2bksM7Q96LBQ _QijnZaggEe2bksM7Q96LBQ _QijnZqggEe2bksM7Q96LBQ _QijnZ6ggEe2bksM7Q96LBQ _QijnaKggEe2bksM7Q96LBQ" dbVersionString="ORACLE_12" id="__dJk8KgfEe2bksM7Q96LBQ" label="OracleDB_WMS" name="OracleDB_WMS" supportNLS="false" xmi:id="_QOSm4KggEe2bksM7Q96LBQ">
+    <taggedValue tag="Is Conn Need Reload" value="false" xmi:id="_QOSm4aggEe2bksM7Q96LBQ"/>
+    <taggedValue tag="package filter" value="" xmi:id="_QOvS0KggEe2bksM7Q96LBQ"/>
+    <taggedValue tag="Status" value="" xmi:id="_QO5D0KggEe2bksM7Q96LBQ"/>
+    <taggedValue tag="Version" value="0.1" xmi:id="_QO5D0aggEe2bksM7Q96LBQ"/>
+    <taggedValue tag="Purpose" value="" xmi:id="_QO5D0qggEe2bksM7Q96LBQ"/>
+    <taggedValue tag="Description" value="" xmi:id="_QO5D06ggEe2bksM7Q96LBQ"/>
+    <taggedValue tag="Author" value="" xmi:id="_QO5D1KggEe2bksM7Q96LBQ"/>
+    <taggedValue tag="otherParameter" xmi:id="_QO5D1aggEe2bksM7Q96LBQ"/>
+    <taggedValue tag="DB ProductName" value="Oracle" xmi:id="_QTqPEKggEe2bksM7Q96LBQ"/>
+    <taggedValue tag="DB ProductVersion" value="Oracle Database 12c Enterprise Edition Release 12.1.0.2.0 - 64bit Production&#10;With the Partitioning, OLAP, Advanced Analytics and Real Application Testing options" xmi:id="_QTqPEaggEe2bksM7Q96LBQ"/>
+    <taggedValue tag="DB IdentifierQuoteString" value="&quot;" xmi:id="_QTqPEqggEe2bksM7Q96LBQ"/>
+    <parameters key="CONN_PARA_KEY_USERNAME" value="appsview" xmi:id="_QOSm4qggEe2bksM7Q96LBQ"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="AD_MONITOR" xmi:id="_QiacwKggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="AHL" xmi:id="_QiacwaggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="AK" xmi:id="_QiacwqggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="ALR" xmi:id="_Qiacw6ggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="AMS" xmi:id="_QiacxKggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="AMV" xmi:id="_QiacxaggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="ANONYMOUS" xmi:id="_QiacxqggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="AP" xmi:id="_Qiacx6ggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="APPLSYS" xmi:id="_QiacyKggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="APPLSYSPUB" xmi:id="_QiacyaggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="APPQOSSYS" xmi:id="_QiacyqggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="APPS" xmi:id="_Qiacy6ggEe2bksM7Q96LBQ">
+    <ownedElement id="_ZDDBEKggEe2bksM7Q96LBQ" label="CUX_DWMS_INV_TXN_ITF" name="CUX_DWMS_INV_TXN_ITF" tableType="SYNONYM" xmi:id="_ZDMLAKggEe2bksM7Q96LBQ" xsi:type="relational:TdTable">
+      <feature label="ATTRIBUTE1" length="240" name="ATTRIBUTE1" sourceType="VARCHAR2" talendType="id_String" xmi:id="_ZDMLAaggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_ZDMLAqggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ATTRIBUTE10" length="240" name="ATTRIBUTE10" sourceType="VARCHAR2" talendType="id_String" xmi:id="_ZDMLA6ggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_ZDMLBKggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ATTRIBUTE11" length="240" name="ATTRIBUTE11" sourceType="VARCHAR2" talendType="id_String" xmi:id="_ZDMLBaggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_ZDMLBqggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ATTRIBUTE12" length="240" name="ATTRIBUTE12" sourceType="VARCHAR2" talendType="id_String" xmi:id="_ZDMLB6ggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_ZDMLCKggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ATTRIBUTE13" length="240" name="ATTRIBUTE13" sourceType="VARCHAR2" talendType="id_String" xmi:id="_ZDMLCaggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_ZDMLCqggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ATTRIBUTE14" length="240" name="ATTRIBUTE14" sourceType="VARCHAR2" talendType="id_String" xmi:id="_ZDMLC6ggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_ZDMLDKggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ATTRIBUTE15" length="240" name="ATTRIBUTE15" sourceType="VARCHAR2" talendType="id_String" xmi:id="_ZDMLDaggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_ZDMLDqggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ATTRIBUTE2" length="240" name="ATTRIBUTE2" sourceType="VARCHAR2" talendType="id_String" xmi:id="_ZDMLD6ggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_ZDMLEKggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ATTRIBUTE3" length="240" name="ATTRIBUTE3" sourceType="VARCHAR2" talendType="id_String" xmi:id="_ZDMLEaggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_ZDMLEqggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ATTRIBUTE4" length="240" name="ATTRIBUTE4" sourceType="VARCHAR2" talendType="id_String" xmi:id="_ZDMLE6ggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_ZDMLFKggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ATTRIBUTE5" length="240" name="ATTRIBUTE5" sourceType="VARCHAR2" talendType="id_String" xmi:id="_ZDMLFaggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_ZDMLFqggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ATTRIBUTE6" length="240" name="ATTRIBUTE6" sourceType="VARCHAR2" talendType="id_String" xmi:id="_ZDMLF6ggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_ZDMLGKggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ATTRIBUTE7" length="240" name="ATTRIBUTE7" sourceType="VARCHAR2" talendType="id_String" xmi:id="_ZDMLGaggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_ZDMLGqggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ATTRIBUTE8" length="240" name="ATTRIBUTE8" sourceType="VARCHAR2" talendType="id_String" xmi:id="_ZDMLG6ggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_ZDMLHKggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ATTRIBUTE9" length="240" name="ATTRIBUTE9" sourceType="VARCHAR2" talendType="id_String" xmi:id="_ZDMLHaggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_ZDMLHqggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ATTRIBUTE_CATEGORY" length="30" name="ATTRIBUTE_CATEGORY" sourceType="VARCHAR2" talendType="id_String" xmi:id="_ZDMLH6ggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_ZDMLIKggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="CREATED_BY" length="22" name="CREATED_BY" nullable="false" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_ZDMLIaggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_ZDMLIqggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="CREATION_DATE" length="7" name="CREATION_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_ZDMLI6ggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_ZDMLJKggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="INVENTORY_ITEM_CODE" length="40" name="INVENTORY_ITEM_CODE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_ZDMLJaggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_ZDMLJqggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="INVENTORY_ITEM_ID" length="22" name="INVENTORY_ITEM_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_ZDMLJ6ggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_ZDMLKKggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ITF_ID" length="22" name="ITF_ID" nullable="false" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_ZDMLKaggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_ZDMLKqggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="LAST_UPDATED_BY" length="22" name="LAST_UPDATED_BY" nullable="false" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_ZDMLK6ggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_ZDMLLKggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="LAST_UPDATE_DATE" length="7" name="LAST_UPDATE_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_ZDMLLaggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_ZDMLLqggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="LAST_UPDATE_LOGIN" length="22" name="LAST_UPDATE_LOGIN" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_ZDMLL6ggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_ZDMLMKggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="LOCATOR" length="80" name="LOCATOR" sourceType="VARCHAR2" talendType="id_String" xmi:id="_ZDMLMaggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_ZDMLMqggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="LOT_NUMBER" length="80" name="LOT_NUMBER" sourceType="VARCHAR2" talendType="id_String" xmi:id="_ZDMLM6ggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_ZDMLNKggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="OBJECT_VERSION_NUMBER" length="22" name="OBJECT_VERSION_NUMBER" nullable="false" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_ZDMLNaggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_ZDMLNqggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ORGANIZATION_CODE" length="3" name="ORGANIZATION_CODE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_ZDMLN6ggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_ZDMLOKggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ORGANIZATION_ID" length="22" name="ORGANIZATION_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_ZDMLOaggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_ZDMLOqggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="PRIMARY_KEY" length="30" name="PRIMARY_KEY" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_ZDMLO6ggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_ZDMLPKggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="PROCESS_DATE" length="7" name="PROCESS_DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_ZDMLPaggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_ZDMLPqggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="PROCESS_GROUP_ID" length="22" name="PROCESS_GROUP_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_ZDMLP6ggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_ZDMLQKggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="PROCESS_MESSAGE" length="4000" name="PROCESS_MESSAGE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_ZDMLQaggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_ZDMLQqggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="PROCESS_STATUS" length="10" name="PROCESS_STATUS" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_ZDMLQ6ggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_ZDMLRKggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="REASON_ID" length="22" name="REASON_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_ZDMLRaggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_ZDMLRqggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="REASON_NAME" length="30" name="REASON_NAME" sourceType="VARCHAR2" talendType="id_String" xmi:id="_ZDMLR6ggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_ZDMLSKggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="SOURCE_CODE" length="30" name="SOURCE_CODE" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_ZDMLSaggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_ZDMLSqggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="SOURCE_LINE_ID" length="22" name="SOURCE_LINE_ID" nullable="false" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_ZDMLS6ggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_ZDMLTKggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="SOURCE_REFERENCE" length="100" name="SOURCE_REFERENCE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_ZDMLTaggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_ZDMLTqggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="SOURCE_TRANSACTION_ID" length="22" name="SOURCE_TRANSACTION_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_ZDMLT6ggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_ZDMLUKggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="SOURCE_TRANSACTION_TYPE" length="80" name="SOURCE_TRANSACTION_TYPE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_ZDMLUaggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_ZDMLUqggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="SUBINVENTORY_CODE" length="10" name="SUBINVENTORY_CODE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_ZDMLU6ggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_ZDMLVKggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="TRANSACTION_DATE" length="7" name="TRANSACTION_DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_ZDMLVaggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_ZDMLVqggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="TRANSACTION_QUANTITY" length="22" name="TRANSACTION_QUANTITY" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_ZDMLV6ggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_ZDMLWKggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="TRANSACTION_REFERENCE" length="240" name="TRANSACTION_REFERENCE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_ZDMLWaggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_ZDMLWqggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="TRANSACTION_SOURCE_ID" length="22" name="TRANSACTION_SOURCE_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_ZDMLW6ggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_ZDMLXKggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="TRANSACTION_SOURCE_NAME" length="80" name="TRANSACTION_SOURCE_NAME" sourceType="VARCHAR2" talendType="id_String" xmi:id="_ZDMLXaggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_ZDMLXqggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="TRANSACTION_TYPE_ID" length="22" name="TRANSACTION_TYPE_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_ZDMLX6ggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_ZDMLYKggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="TRANSACTION_UOM" length="3" name="TRANSACTION_UOM" sourceType="VARCHAR2" talendType="id_String" xmi:id="_ZDMLYaggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_ZDMLYqggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="WMS_LOCATOR" length="40" name="WMS_LOCATOR" sourceType="VARCHAR2" talendType="id_String" xmi:id="_ZDMLY6ggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_ZDMLZKggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="WMS_LOCATOR_ID" length="22" name="WMS_LOCATOR_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_ZDMLZaggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_ZDMLZqggEe2bksM7Q96LBQ"/>
+      </feature>
+    </ownedElement>
+    <ownedElement id="_iRbcMKggEe2bksM7Q96LBQ" label="CUX_DWMS_RCV_TXN_ITF" name="CUX_DWMS_RCV_TXN_ITF" tableType="SYNONYM" xmi:id="_iRbcMaggEe2bksM7Q96LBQ" xsi:type="relational:TdTable">
+      <feature label="ATTRIBUTE1" length="240" name="ATTRIBUTE1" sourceType="VARCHAR2" talendType="id_String" xmi:id="_iRbcMqggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_iRbcM6ggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ATTRIBUTE10" length="240" name="ATTRIBUTE10" sourceType="VARCHAR2" talendType="id_String" xmi:id="_iRbcNKggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_iRbcNaggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ATTRIBUTE11" length="240" name="ATTRIBUTE11" sourceType="VARCHAR2" talendType="id_String" xmi:id="_iRbcNqggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_iRbcN6ggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ATTRIBUTE12" length="240" name="ATTRIBUTE12" sourceType="VARCHAR2" talendType="id_String" xmi:id="_iRbcOKggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_iRbcOaggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ATTRIBUTE13" length="240" name="ATTRIBUTE13" sourceType="VARCHAR2" talendType="id_String" xmi:id="_iRbcOqggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_iRbcO6ggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ATTRIBUTE14" length="240" name="ATTRIBUTE14" sourceType="VARCHAR2" talendType="id_String" xmi:id="_iRbcPKggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_iRbcPaggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ATTRIBUTE15" length="240" name="ATTRIBUTE15" sourceType="VARCHAR2" talendType="id_String" xmi:id="_iRbcPqggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_iRbcP6ggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ATTRIBUTE2" length="240" name="ATTRIBUTE2" sourceType="VARCHAR2" talendType="id_String" xmi:id="_iRbcQKggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_iRbcQaggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ATTRIBUTE3" length="240" name="ATTRIBUTE3" sourceType="VARCHAR2" talendType="id_String" xmi:id="_iRbcQqggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_iRbcQ6ggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ATTRIBUTE4" length="240" name="ATTRIBUTE4" sourceType="VARCHAR2" talendType="id_String" xmi:id="_iRbcRKggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_iRbcRaggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ATTRIBUTE5" length="240" name="ATTRIBUTE5" sourceType="VARCHAR2" talendType="id_String" xmi:id="_iRbcRqggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_iRbcR6ggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ATTRIBUTE6" length="240" name="ATTRIBUTE6" sourceType="VARCHAR2" talendType="id_String" xmi:id="_iRbcSKggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_iRbcSaggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ATTRIBUTE7" length="240" name="ATTRIBUTE7" sourceType="VARCHAR2" talendType="id_String" xmi:id="_iRbcSqggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_iRbcS6ggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ATTRIBUTE8" length="240" name="ATTRIBUTE8" sourceType="VARCHAR2" talendType="id_String" xmi:id="_iRbcTKggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_iRbcTaggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ATTRIBUTE9" length="240" name="ATTRIBUTE9" sourceType="VARCHAR2" talendType="id_String" xmi:id="_iRbcTqggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_iRbcT6ggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ATTRIBUTE_CATEGORY" length="30" name="ATTRIBUTE_CATEGORY" sourceType="VARCHAR2" talendType="id_String" xmi:id="_iRbcUKggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_iRbcUaggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="CREATED_BY" length="22" name="CREATED_BY" nullable="false" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_iRbcUqggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_iRbcU6ggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="CREATION_DATE" length="7" name="CREATION_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_iRbcVKggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_iRbcVaggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ERP_LOCATOR" length="240" name="ERP_LOCATOR" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_iRbcVqggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_iRbcV6ggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ERP_PO_HEADER_ID" length="22" name="ERP_PO_HEADER_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_iRbcWKggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_iRbcWaggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ERP_SHIPMENT_LINE_ID" length="22" name="ERP_SHIPMENT_LINE_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_iRbcWqggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_iRbcW6ggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ERP_SUBINVENTORY_CODE" length="40" name="ERP_SUBINVENTORY_CODE" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_iRbcXKggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_iRbcXaggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="INTERFACE_ID" length="22" name="INTERFACE_ID" nullable="false" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_iRbcXqggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_iRbcX6ggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ITEM_NUM" length="240" name="ITEM_NUM" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_iRbcYKggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_iRbcYaggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="LAST_UPDATED_BY" length="22" name="LAST_UPDATED_BY" nullable="false" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_iRbcYqggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_iRbcY6ggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="LAST_UPDATE_DATE" length="7" name="LAST_UPDATE_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_iRbcZKggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_iRbcZaggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="LAST_UPDATE_LOGIN" length="22" name="LAST_UPDATE_LOGIN" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_iRbcZqggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_iRbcZ6ggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="LINE_NUM" length="22" name="LINE_NUM" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_iRbcaKggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_iRbcaaggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="OBJECT_VERSION_NUMBER" length="22" name="OBJECT_VERSION_NUMBER" nullable="false" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_iRbcaqggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_iRbca6ggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ORGANIZATION_CODE" length="10" name="ORGANIZATION_CODE" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_iRbcbKggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_iRbcbaggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="PO_HEADER_ID" length="22" name="PO_HEADER_ID" nullable="false" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_iRbcbqggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_iRbcb6ggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="PO_LINE_LOCATION_ID" length="22" name="PO_LINE_LOCATION_ID" nullable="false" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_iRbccKggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_iRbccaggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="PO_NUMBER" length="40" name="PO_NUMBER" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_iRbccqggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_iRbcc6ggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="PROCESS_DATE" length="7" name="PROCESS_DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_iRbcdKggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_iRbcdaggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="PROCESS_GROUP_ID" length="22" name="PROCESS_GROUP_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_iRbcdqggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_iRbcd6ggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="PROCESS_MESSAGE" length="4000" name="PROCESS_MESSAGE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_iRbceKggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_iRbceaggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="PROCESS_STATUS" length="10" name="PROCESS_STATUS" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_iRbceqggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_iRbce6ggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="QUANTITY" length="22" name="QUANTITY" nullable="false" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_iRbcfKggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_iRbcfaggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="SOURCE_CODE" length="30" name="SOURCE_CODE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_iRbcfqggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_iRbcf6ggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="SOURCE_LINE_ID" length="22" name="SOURCE_LINE_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_iRbcgKggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_iRbcgaggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="SOURCE_MMT_TRANSACTION_ID" length="22" name="SOURCE_MMT_TRANSACTION_ID" nullable="false" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_iRbcgqggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_iRbcg6ggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="SOURCE_RCV_TRANSACTION_ID" length="22" name="SOURCE_RCV_TRANSACTION_ID" nullable="false" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_iRbchKggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_iRbchaggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="SOURCE_REFERENCE" length="100" name="SOURCE_REFERENCE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_iRbchqggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_iRbch6ggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="TRANSACTION_DATE" length="7" name="TRANSACTION_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_iRbciKggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_iRbciaggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="TRANSACTION_TYPE" length="30" name="TRANSACTION_TYPE" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_iRbciqggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_iRbci6ggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="TRANSACTION_UOM" length="25" name="TRANSACTION_UOM" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_iRbcjKggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_iRbcjaggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="WAY_BILL" length="80" name="WAY_BILL" sourceType="VARCHAR2" talendType="id_String" xmi:id="_iRbcjqggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_iRbcj6ggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="WMS_LOCATOR" length="240" name="WMS_LOCATOR" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_iRbckKggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_iRbckaggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="WMS_SUBINVENTORY_CODE" length="40" name="WMS_SUBINVENTORY_CODE" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_iRbckqggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_iRbck6ggEe2bksM7Q96LBQ"/>
+      </feature>
+    </ownedElement>
+    <ownedElement id="_jt9roKggEe2bksM7Q96LBQ" label="CUX_DWMS_ORDER_RETURN_INF" name="CUX_DWMS_ORDER_RETURN_INF" tableType="SYNONYM" xmi:id="_jt9roaggEe2bksM7Q96LBQ" xsi:type="relational:TdTable">
+      <feature label="ACTION_TYPE" length="22" name="ACTION_TYPE" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_jt9roqggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9ro6ggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ATTRIBUTE1" length="240" name="ATTRIBUTE1" sourceType="VARCHAR2" talendType="id_String" xmi:id="_jt9rpKggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9rpaggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ATTRIBUTE10" length="240" name="ATTRIBUTE10" sourceType="VARCHAR2" talendType="id_String" xmi:id="_jt9rpqggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9rp6ggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ATTRIBUTE11" length="240" name="ATTRIBUTE11" sourceType="VARCHAR2" talendType="id_String" xmi:id="_jt9rqKggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9rqaggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ATTRIBUTE12" length="240" name="ATTRIBUTE12" sourceType="VARCHAR2" talendType="id_String" xmi:id="_jt9rqqggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9rq6ggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ATTRIBUTE13" length="240" name="ATTRIBUTE13" sourceType="VARCHAR2" talendType="id_String" xmi:id="_jt9rrKggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9rraggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ATTRIBUTE14" length="240" name="ATTRIBUTE14" sourceType="VARCHAR2" talendType="id_String" xmi:id="_jt9rrqggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9rr6ggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ATTRIBUTE15" length="240" name="ATTRIBUTE15" sourceType="VARCHAR2" talendType="id_String" xmi:id="_jt9rsKggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9rsaggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ATTRIBUTE2" length="240" name="ATTRIBUTE2" sourceType="VARCHAR2" talendType="id_String" xmi:id="_jt9rsqggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9rs6ggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ATTRIBUTE3" length="240" name="ATTRIBUTE3" sourceType="VARCHAR2" talendType="id_String" xmi:id="_jt9rtKggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9rtaggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ATTRIBUTE4" length="240" name="ATTRIBUTE4" sourceType="VARCHAR2" talendType="id_String" xmi:id="_jt9rtqggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9rt6ggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ATTRIBUTE5" length="240" name="ATTRIBUTE5" sourceType="VARCHAR2" talendType="id_String" xmi:id="_jt9ruKggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9ruaggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ATTRIBUTE6" length="240" name="ATTRIBUTE6" sourceType="VARCHAR2" talendType="id_String" xmi:id="_jt9ruqggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9ru6ggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ATTRIBUTE7" length="240" name="ATTRIBUTE7" sourceType="VARCHAR2" talendType="id_String" xmi:id="_jt9rvKggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9rvaggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ATTRIBUTE8" length="240" name="ATTRIBUTE8" sourceType="VARCHAR2" talendType="id_String" xmi:id="_jt9rvqggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9rv6ggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ATTRIBUTE9" length="240" name="ATTRIBUTE9" sourceType="VARCHAR2" talendType="id_String" xmi:id="_jt9rwKggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9rwaggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ATTRIBUTE_CATEGORY" length="30" name="ATTRIBUTE_CATEGORY" sourceType="VARCHAR2" talendType="id_String" xmi:id="_jt9rwqggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9rw6ggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="CREATED_BY" length="22" name="CREATED_BY" nullable="false" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_jt9rxKggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9rxaggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="CREATION_DATE" length="7" name="CREATION_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_jt9rxqggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9rx6ggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="DATE_REQUIRED" length="7" name="DATE_REQUIRED" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_jt9ryKggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9ryaggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="FROM_LOCATOR_CODE" length="50" name="FROM_LOCATOR_CODE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_jt9ryqggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9ry6ggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="FROM_SUBINVENTORY_CODE" length="30" name="FROM_SUBINVENTORY_CODE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_jt9rzKggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9rzaggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="INTERFACE_ID" length="22" name="INTERFACE_ID" nullable="false" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_jt9rzqggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9rz6ggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ITEM_CODE" length="50" name="ITEM_CODE" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_jt9r0KggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9r0aggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="LAST_UPDATED_BY" length="22" name="LAST_UPDATED_BY" nullable="false" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_jt9r0qggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9r06ggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="LAST_UPDATE_DATE" length="7" name="LAST_UPDATE_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_jt9r1KggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9r1aggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="LAST_UPDATE_LOGIN" length="22" name="LAST_UPDATE_LOGIN" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_jt9r1qggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9r16ggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="LOT_NUMBER" length="80" name="LOT_NUMBER" sourceType="VARCHAR2" talendType="id_String" xmi:id="_jt9r2KggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9r2aggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="OBJECT_VERSION_NUMBER" length="22" name="OBJECT_VERSION_NUMBER" nullable="false" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_jt9r2qggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9r26ggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ORDER_HEADER_ID" length="22" name="ORDER_HEADER_ID" nullable="false" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_jt9r3KggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9r3aggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ORDER_LINE_ID" length="22" name="ORDER_LINE_ID" nullable="false" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_jt9r3qggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9r36ggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ORDER_NUMBER" length="50" name="ORDER_NUMBER" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_jt9r4KggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9r4aggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ORDER_TYPE" length="100" name="ORDER_TYPE" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_jt9r4qggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9r46ggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ORGANIZATION_CODE" length="30" name="ORGANIZATION_CODE" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_jt9r5KggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9r5aggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="ORGANIZATION_ID" length="22" name="ORGANIZATION_ID" nullable="false" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_jt9r5qggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9r56ggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="PRIMARY_QUANTITY" length="22" name="PRIMARY_QUANTITY" nullable="false" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_jt9r6KggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9r6aggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="PRIMARY_UOM" length="30" name="PRIMARY_UOM" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_jt9r6qggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9r66ggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="PROCESS_DATE" length="7" name="PROCESS_DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_jt9r7KggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9r7aggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="PROCESS_GROUP_ID" length="22" name="PROCESS_GROUP_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_jt9r7qggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9r76ggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="PROCESS_MESSAGE" length="4000" name="PROCESS_MESSAGE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_jt9r8KggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9r8aggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="PROCESS_STATUS" length="10" name="PROCESS_STATUS" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_jt9r8qggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9r86ggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="SOURCE_CODE" length="30" name="SOURCE_CODE" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_jt9r9KggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9r9aggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="SOURCE_HEADER_ID" length="22" name="SOURCE_HEADER_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_jt9r9qggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9r96ggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="SOURCE_LINE_ID" length="22" name="SOURCE_LINE_ID" nullable="false" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_jt9r-KggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9r-aggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="SOURCE_ORDER_NUMBER" length="50" name="SOURCE_ORDER_NUMBER" sourceType="VARCHAR2" talendType="id_String" xmi:id="_jt9r-qggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9r-6ggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="SOURCE_REFERENCE" length="100" name="SOURCE_REFERENCE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_jt9r_KggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9r_aggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="SYN_QUANTITY" length="22" name="SYN_QUANTITY" nullable="false" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_jt9r_qggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9r_6ggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="SYN_UOM" length="30" name="SYN_UOM" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_jt9sAKggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9sAaggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="TO_ACCOUNT" length="50" name="TO_ACCOUNT" sourceType="VARCHAR2" talendType="id_String" xmi:id="_jt9sAqggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9sA6ggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="TO_LOCATOR_CODE" length="50" name="TO_LOCATOR_CODE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_jt9sBKggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9sBaggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="TO_SUBINVENTORY_CODE" length="30" name="TO_SUBINVENTORY_CODE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_jt9sBqggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9sB6ggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="TRANSACTION_DATE" length="7" name="TRANSACTION_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_jt9sCKggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9sCaggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="TRANSACTION_ID" length="22" name="TRANSACTION_ID" nullable="false" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_jt9sCqggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9sC6ggEe2bksM7Q96LBQ"/>
+      </feature>
+      <feature label="TRANSACTION_TYPE" length="100" name="TRANSACTION_TYPE" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_jt9sDKggEe2bksM7Q96LBQ" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_jt9sDaggEe2bksM7Q96LBQ"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Schema>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="APPSVIEW" xmi:id="_QiaczKggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="APPS_NE" xmi:id="_QiaczaggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="AR" xmi:id="_QiaczqggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="ASF" xmi:id="_Qiacz6ggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="ASG" xmi:id="_Qiac0KggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="ASL" xmi:id="_Qiac0aggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="ASN" xmi:id="_Qiac0qggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="ASO" xmi:id="_Qiac06ggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="ASP" xmi:id="_Qiac1KggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="AST" xmi:id="_Qiac1aggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="AUDSYS" xmi:id="_QijmsKggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="AX" xmi:id="_QijmsaggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="AZ" xmi:id="_QijmsqggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="BEN" xmi:id="_Qijms6ggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="BIC" xmi:id="_QijmtKggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="BIM" xmi:id="_QijmtaggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="BIS" xmi:id="_QijmtqggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="BNE" xmi:id="_Qijmt6ggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="BOM" xmi:id="_QijmuKggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="CCT" xmi:id="_QijmuaggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="CE" xmi:id="_QijmuqggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="CLN" xmi:id="_Qijmu6ggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="CMI" xmi:id="_QijmvKggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="CN" xmi:id="_QijmvaggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="CRP" xmi:id="_QijmvqggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="CS" xmi:id="_Qijmv6ggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="CSC" xmi:id="_QijmwKggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="CSD" xmi:id="_QijmwaggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="CSE" xmi:id="_QijmwqggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="CSF" xmi:id="_Qijmw6ggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="CSI" xmi:id="_QijmxKggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="CSL" xmi:id="_QijmxaggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="CSM" xmi:id="_QijmxqggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="CSP" xmi:id="_Qijmx6ggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="CSR" xmi:id="_QijmyKggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="CTXSYS" xmi:id="_QijmyaggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="CUA" xmi:id="_QijmyqggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="CUG" xmi:id="_Qijmy6ggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="CUX" xmi:id="_QijmzKggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="CZ" xmi:id="_QijmzaggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="DBSNMP" xmi:id="_QijmzqggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="DDR" xmi:id="_Qijmz6ggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="DIP" xmi:id="_Qijm0KggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="DNA" xmi:id="_Qijm0aggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="DOM" xmi:id="_Qijm0qggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="DPP" xmi:id="_Qijm06ggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="EAM" xmi:id="_Qijm1KggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="EC" xmi:id="_Qijm1aggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="ECX" xmi:id="_Qijm1qggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="EDR" xmi:id="_Qijm16ggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="EGO" xmi:id="_Qijm2KggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="EM_MONITOR" xmi:id="_Qijm2aggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="ENG" xmi:id="_Qijm2qggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="ENI" xmi:id="_Qijm26ggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="FA" xmi:id="_Qijm3KggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="FLM" xmi:id="_Qijm3aggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="FPA" xmi:id="_Qijm3qggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="FRM" xmi:id="_Qijm36ggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="FTE" xmi:id="_Qijm4KggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="FUN" xmi:id="_Qijm4aggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="FV" xmi:id="_Qijm4qggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="GHG" xmi:id="_Qijm46ggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="GL" xmi:id="_Qijm5KggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="GMA" xmi:id="_Qijm5aggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="GMD" xmi:id="_Qijm5qggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="GME" xmi:id="_Qijm56ggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="GMF" xmi:id="_Qijm6KggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="GMI" xmi:id="_Qijm6aggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="GML" xmi:id="_Qijm6qggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="GMO" xmi:id="_Qijm66ggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="GMP" xmi:id="_Qijm7KggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="GMS" xmi:id="_Qijm7aggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="GR" xmi:id="_Qijm7qggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="GSMADMIN_INTERNAL" xmi:id="_Qijm76ggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="GSMCATUSER" xmi:id="_Qijm8KggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="GSMUSER" xmi:id="_Qijm8aggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="HDSP" xmi:id="_Qijm8qggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="HR" xmi:id="_Qijm86ggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="HRI" xmi:id="_Qijm9KggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="HXC" xmi:id="_Qijm9aggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="HXT" xmi:id="_Qijm9qggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="IA" xmi:id="_Qijm96ggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="IBC" xmi:id="_Qijm-KggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="IBE" xmi:id="_Qijm-aggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="IBU" xmi:id="_Qijm-qggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="IBW" xmi:id="_Qijm-6ggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="IBY" xmi:id="_Qijm_KggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="ICX" xmi:id="_Qijm_aggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="IEB" xmi:id="_Qijm_qggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="IEC" xmi:id="_Qijm_6ggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="IEM" xmi:id="_QijnAKggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="IEO" xmi:id="_QijnAaggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="IES" xmi:id="_QijnAqggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="IEU" xmi:id="_QijnA6ggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="IEX" xmi:id="_QijnBKggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="IGC" xmi:id="_QijnBaggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="IGI" xmi:id="_QijnBqggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="IMC" xmi:id="_QijnB6ggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="INL" xmi:id="_QijnCKggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="INV" xmi:id="_QijnCaggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="IPA" xmi:id="_QijnCqggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="IPM" xmi:id="_QijnC6ggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="ITG" xmi:id="_QijnDKggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="IZU" xmi:id="_QijnDaggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="JA" xmi:id="_QijnDqggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="JE" xmi:id="_QijnD6ggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="JG" xmi:id="_QijnEKggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="JL" xmi:id="_QijnEaggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="JMF" xmi:id="_QijnEqggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="JTF" xmi:id="_QijnE6ggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="JTM" xmi:id="_QijnFKggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="LNS" xmi:id="_QijnFaggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="LOG_VIEW" xmi:id="_QijnFqggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="MDDATA" xmi:id="_QijnF6ggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="MDSYS" xmi:id="_QijnGKggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="MFG" xmi:id="_QijnGaggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="MGDSYS" xmi:id="_QijnGqggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="MRP" xmi:id="_QijnG6ggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="MSC" xmi:id="_QijnHKggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="MSD" xmi:id="_QijnHaggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="MSO" xmi:id="_QijnHqggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="MSR" xmi:id="_QijnH6ggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="MTH" xmi:id="_QijnIKggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="MWA" xmi:id="_QijnIaggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="ODM" xmi:id="_QijnIqggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="ODM_MTR" xmi:id="_QijnI6ggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="OE" xmi:id="_QijnJKggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="OJVMSYS" xmi:id="_QijnJaggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="OKC" xmi:id="_QijnJqggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="OKE" xmi:id="_QijnJ6ggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="OKL" xmi:id="_QijnKKggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="OKS" xmi:id="_QijnKaggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="OKX" xmi:id="_QijnKqggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="OLAPSYS" xmi:id="_QijnK6ggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="ONT" xmi:id="_QijnLKggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="OPI" xmi:id="_QijnLaggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="ORACLE_OCM" xmi:id="_QijnLqggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="ORDDATA" xmi:id="_QijnL6ggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="ORDPLUGINS" xmi:id="_QijnMKggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="ORDSYS" xmi:id="_QijnMaggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="OSM" xmi:id="_QijnMqggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="OTA" xmi:id="_QijnM6ggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="OUTLN" xmi:id="_QijnNKggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="OZF" xmi:id="_QijnNaggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="PA" xmi:id="_QijnNqggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="PJI" xmi:id="_QijnN6ggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="PJM" xmi:id="_QijnOKggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="PMI" xmi:id="_QijnOaggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="PN" xmi:id="_QijnOqggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="PO" xmi:id="_QijnO6ggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="POM" xmi:id="_QijnPKggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="PON" xmi:id="_QijnPaggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="POS" xmi:id="_QijnPqggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="PRP" xmi:id="_QijnP6ggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="PSA" xmi:id="_QijnQKggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="PSP" xmi:id="_QijnQaggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="PV" xmi:id="_QijnQqggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="QA" xmi:id="_QijnQ6ggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="QOT" xmi:id="_QijnRKggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="QP" xmi:id="_QijnRaggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="QPR" xmi:id="_QijnRqggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="QRM" xmi:id="_QijnR6ggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="RG" xmi:id="_QijnSKggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="RLM" xmi:id="_QijnSaggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="RRS" xmi:id="_QijnSqggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="SCOTT" xmi:id="_QijnS6ggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="SI_INFORMTN_SCHEMA" xmi:id="_QijnTKggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="SPATIAL_CSW_ADMIN_USR" xmi:id="_QijnTaggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="SPATIAL_WFS_ADMIN_USR" xmi:id="_QijnTqggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="SSOSDK" xmi:id="_QijnT6ggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="SSP" xmi:id="_QijnUKggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="SYS" xmi:id="_QijnUaggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="SYSBACKUP" xmi:id="_QijnUqggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="SYSDG" xmi:id="_QijnU6ggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="SYSKM" xmi:id="_QijnVKggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="SYSTEM" xmi:id="_QijnVaggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="VEA" xmi:id="_QijnVqggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="WCSSYS" xmi:id="_QijnV6ggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="WIP" xmi:id="_QijnWKggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="WMS" xmi:id="_QijnWaggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="WMS_USER" xmi:id="_QijnWqggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="WPS" xmi:id="_QijnW6ggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="WSH" xmi:id="_QijnXKggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="WSM" xmi:id="_QijnXaggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="XDB" xmi:id="_QijnXqggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="XDO" xmi:id="_QijnX6ggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="XDP" xmi:id="_QijnYKggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="XLA" xmi:id="_QijnYaggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="XLE" xmi:id="_QijnYqggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="XNB" xmi:id="_QijnY6ggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="XNP" xmi:id="_QijnZKggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="XS$NULL" xmi:id="_QijnZaggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="XTR" xmi:id="_QijnZqggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="YMS" xmi:id="_QijnZ6ggEe2bksM7Q96LBQ"/>
+  <orgomg.cwm.resource.relational:Schema dataManager="_QOSm4KggEe2bksM7Q96LBQ" name="ZX" xmi:id="_QijnaKggEe2bksM7Q96LBQ"/>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_6991b08f-25ef-46af-bfb7-e6d39e076062"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>R2VJMYBpAD8Q0KOgmoSoHsL+ROY54eK6YRdqlPCY+gpBhX+8qcaP4wfIm40xEDmd9qs7OKNPYQXd&#13;
+Bjz1q3rKMQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_87b0c37c-d540-4fa0-97f5-f0b2cff0f51d"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>0t99nXlb3cwf513vDxHZt7WfU2Tz75bKnTMz2Uvc1VRzUizDCymSCkstD+iaVkd3mgYcp7NX6ir8&#13;
+bdM62BuxUg==</DigestValue></Reference></SignedInfo><SignatureValue>K+jV3o8Jmh46lQf7BItwb54CYJILuleB25wh3ZMAneNyfJq9rdTp6KfKuU/tPjewCf1oPHGlKW+O&#13;
+e8Wpnusq8CTR3gD8rdhZrGVuoCUESvS1IujTJ8QwncJLhamh2pD79KVDl8ByXaUwqZ1oxf/YGai/&#13;
++PmUmvwZ0womkAxhT0+KBknOOgsaJa6gRr3+AuF9Sy7OGXX4BOx6yDxEbgxnuwmSESN2FfKYBSdM&#13;
+p6yYeXanRoYDdr9nZM9UGubbY17l9PfnJjJ1U/za275EkDEcAoPtYIZMOwhUUfFzf9+teFAhI4oO&#13;
+IXBkL3e0zQsbtGpYY2qdHfwXtmyWMBk938U8Gg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_87b0c37c-d540-4fa0-97f5-f0b2cff0f51d" Target="#_6991b08f-25ef-46af-bfb7-e6d39e076062"><Timestamp>2023-02-09 01:52:19</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
